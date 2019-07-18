@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "REEJI-Cutie-GB-Regular";
+
+  src: url("../RuiZiWenShuaiKeAiJian-TTF-2.woff2") format("woff2"); 
+  font-weight: normal;
+  font-style: normal;
+}
 .wrapper {
   width: 100%; }
 
@@ -1193,7 +1200,7 @@ body.outlook p {
     height: auto; }
   table.body center {
     min-width: 0 !important; }
-  table.body .container {
+  table.body .container, .header .container, .main-section {
     width: 95% !important; }
   table.body .columns,
   table.body .column {
@@ -1354,7 +1361,7 @@ img.inline{
 
 /*--------index----------*/
 table.body{
-  background-image: url(../bnr.jpg);
+  background-image: url(https://verstka.sania.net.ua/email-hkrc/bnr.jpg);
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -1373,10 +1380,11 @@ table.body{
 }
   .center_text h1{
     text-align: center;
-    color: #ed4c54;
+    color: #ed4c54; 
     font-size: 42px;
     font-weight: 400;
     letter-spacing: -2.1px;
+    font-family: "REEJI-Cutie-GB-Regular", Arial, Helvetica, sans-serif; 
   }
   .center_text ul{
     list-style: none;
@@ -1395,7 +1403,11 @@ table.body{
     text-align: center;
   }
 .main-section{
-  background: #ffdfa0;
+  background-color: #ffdfa0;
+  background-image: url(https://verstka.sania.net.ua/email-hkrc/BG.jpg); 
+  background-repeat: repeat;
+  background-position: top center;
+  background-size: cover;
   border-radius: 30px;
   width: 860px;
   margin: 0 auto;
@@ -1435,4 +1447,7 @@ table.container-xl{
   .footer__contact span{
     padding-left: 8px;
     padding-right: 8px;
+  }
+  table.body img.ExternalClass{
+    width: 100%;
   }
