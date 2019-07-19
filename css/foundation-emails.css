@@ -1361,7 +1361,7 @@ img.inline{
 
 /*--------index----------*/
 table.body{
-  background-image: url(https://verstka.sania.net.ua/email-hkrc/bnr.jpg);
+  background-image: url(https://verstka.sania.net.ua/email-hkrc/top-bg.jpg);
   background-repeat: no-repeat;
   background-position: center top;
 }
@@ -1390,7 +1390,10 @@ table.body{
     list-style: none;
     text-align: left;
     margin: 0 auto;
-    max-width: 390px;
+    max-width: 290px;
+  }
+  .center_text ul.china{
+    max-width: 230px; 
   }
   .center_text h3{
     text-align: center;
@@ -1429,6 +1432,10 @@ table.container-xl{
 .news{
   background: #fff;
   padding: 9px 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-right: 12px;
+  padding-left: 12px;
 }
   .news__img{
     padding-bottom: 3px;
@@ -1458,4 +1465,14 @@ table.container-xl{
   .logo-big center img{
     padding-left: 15px;
     padding-right: 15px;
+  }
+  .top-image__img{
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .footer__contact a{
+    white-space: nowrap;
+    text-align: center;
+    color: #232323;
+    font-size: 14px;
   }
