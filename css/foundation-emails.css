@@ -1,7 +1,7 @@
 @font-face {
   font-family: "REEJI-Cutie-GB-Regular";
 
-  src: url("../RuiZiWenShuaiKeAiJian-TTF-2.woff2") format("woff2"); 
+  src: url(http://www.absolutecreative.com/fonts/RuiZiWenShuaiKeAiJian-TTF-2.woff2) format("woff2");  
   font-weight: normal;
   font-style: normal;
 }
@@ -1388,6 +1388,9 @@ table.body{
   }
   .center_text ul{
     list-style: none;
+    text-align: left;
+    margin: 0 auto;
+    max-width: 390px;
   }
   .center_text h3{
     text-align: center;
@@ -1447,7 +1450,12 @@ table.container-xl{
   .footer__contact span{
     padding-left: 8px;
     padding-right: 8px;
+    white-space: nowrap;
   }
   table.body img.ExternalClass{
     width: 100%;
+  }
+  .logo-big center img{
+    padding-left: 15px;
+    padding-right: 15px;
   }
