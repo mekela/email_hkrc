@@ -1360,11 +1360,7 @@ img.inline{
 
 
 /*--------index----------*/
-table.body{
-  background-image: url(https://verstka.sania.net.ua/email-hkrc/top-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center top;
-}
+
 .header .container{
   width: 840px;
 }
@@ -1462,9 +1458,10 @@ table.container-xl{
   table.body img.ExternalClass{
     width: 100%;
   }
-  .logo-big center img{
-    padding-left: 15px;
-    padding-right: 15px;
+  .logo-big center img{ 
+    width: 90%;
+    max-width: 90%;
+    margin: 0 auto;
   }
   .top-image__img{
     margin: 0 auto;
